@@ -1,26 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
     <title>Employee Management System</title>
 </head>
 <body>
-    <style>
-        .rectangular-button {
-            padding: 10px 20px; /* Adjust padding as needed for button size */
-            background-color: #0074d9;
-            color: #fff;
-            border: none;
-            border-radius: 5px; /* Optionally, add rounded corners */
-            cursor: pointer;
-            transition: background-color 0.3s; /* Add a hover effect */
-        }
-
-        .rectangular-button:hover {
-            background-color: #0056b3; /* Change color on hover */
-        }
-     </style>
-     <a href="P1.html" class="rectangular-button">Add Employee</a>
+    <h1>Employee Management System</h1>
+    <table>
+        <!-- Display employee table here -->
+    </table>
+    <a href="/add_employee">Add Employee</a>
+    <a href="/edit_employee">Edit Employee</a>
+    <a href="/mark_attendance">Mark Attendance</a>
+    <a href="/view_salary">View Salary</a>
 </body>
 </html>
+
 
 
